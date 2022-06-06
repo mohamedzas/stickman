@@ -1,0 +1,138 @@
+{
+    "shop": {
+        "0": {
+            "0": {
+                "price": 0,
+                "modifier": 300,
+                "moneyType": "normal"
+            },
+            "1": {
+                "price": 100,
+                "modifier": 600,
+                "moneyType": "normal"
+            },
+            "2": {
+                "price": 250,
+                "modifier": 900,
+                "moneyType": "normal"
+            },
+            "3": {
+                "price": 350,
+                "modifier": 1500,
+                "moneyType": "normal"
+            },
+            "type": "upgradable",
+            "name": "force",
+            "quantity": 0,
+            "quantityMax": 3
+        },
+        "1": {
+            "0": {
+                "price": 0,
+                "modifier": 6,
+                "moneyType": "normal"
+            },
+            "1": {
+                "price": 100,
+                "modifier": 10,
+                "moneyType": "normal"
+            },
+            "2": {
+                "price": 250,
+                "modifier": 12,
+                "moneyType": "normal"
+            },
+            "3": {
+                "price": 350,
+                "modifier": 15,
+                "moneyType": "normal"
+            },
+            "type": "upgradable",
+            "name": "ammo",
+            "quantity": 0,
+            "quantityMax": 3
+        },
+        "2": {
+            "0": {
+                "price": 0,
+                "modifier": 300,
+                "moneyType": "normal"
+            },
+            "1": {
+                "price": 100,
+                "modifier": 200,
+                "moneyType": "normal"
+            },
+            "2": {
+                "price": 250,
+                "modifier": 130,
+                "moneyType": "normal"
+            },
+            "3": {
+                "price": 350,
+                "modifier": 50,
+                "moneyType": "normal"
+            },
+            "type": "upgradable",
+            "name": "silencieux",
+            "quantity": 0,
+            "quantityMax": 3
+        },
+        "3": {
+            "0": {
+                "price": 0,
+                "modifier": 25,
+                "modifier2": 12,
+                "moneyType": "normal"
+            },
+            "1": {
+                "price": 100,
+                "modifier": 18,
+                "modifier2": 9,
+                "moneyType": "normal"
+            },
+            "2": {
+                "price": 250,
+                "modifier": 12,
+                "modifier2": 6,
+                "moneyType": "normal"
+            },
+            "3": {
+                "price": 350,
+                "modifier": 6,
+                "modifier2": 3,
+                "moneyType": "normal"
+            },
+            "type": "upgradable",
+            "name": "stabilisateur",
+            "quantity": 0,
+            "quantityMax": 3
+        },
+        "4": {
+            "0": {
+                "price": 0,
+                "modifier": 0,
+                "moneyType": "normal"
+            },
+            "1": {
+                "price": 100,
+                "modifier": 1,
+                "moneyType": "normal"
+            },
+            "2": {
+                "price": 250,
+                "modifier": 2,
+                "moneyType": "normal"
+            },
+            "3": {
+                "price": 350,
+                "modifier": 4,
+                "moneyType": "normal"
+            },
+            "type": "upgradable",
+            "name": "precision",
+            "quantity": 0,
+            "quantityMax": 3
+        }
+    }
+}

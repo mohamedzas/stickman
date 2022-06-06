@@ -47,6 +47,7 @@ function c2LayoutChange(state, name, force) {
         window.location.href = "html5player://showInterstitial";
         console.log("Showing Inter ------------------------------");
         cr_setSuspended(false);
+        $("#c2canvas").show();
        // if (gameConfig.debugMode) console.log("(game break) sdk.showBanner()");
         if (typeof gameConfig.AdsWaitForInput === "boolean" && gameConfig.AdsWaitForInput) queueAds();
        // else if (typeof sdk !== "undefined" && sdk.showBanner !== "undefined") sdk.showBanner(); 

@@ -22,7 +22,7 @@ function queueAds() {
 
 function unQueueAds() {
     adsIsQueued = false;
-    if (typeof sdk !== "undefined" && sdk.showBanner !== "undefined") sdk.showBanner();
+   // if (typeof sdk !== "undefined" && sdk.showBanner !== "undefined") sdk.showBanner();
 }
 
 function onTouchEvent() {
@@ -33,7 +33,7 @@ function onTouchEvent() {
             $("#c2canvas").show();
         }
         unQueueAds();
-        window.location.href = "html5player://showInterstitial";
+       // window.location.href = "html5player://showInterstitial";
         console.log("Showing Inter 2 --------------------------------");
     }
 }
@@ -46,9 +46,9 @@ function c2LayoutChange(state, name, force) {
     if (state === "in" && name.toLowerCase() === "gameover") {
         window.location.href = "html5player://showInterstitial";
         console.log("Showing Inter ------------------------------");
-        if (gameConfig.debugMode) console.log("(game break) sdk.showBanner()");
+      //  if (gameConfig.debugMode) console.log("(game break) sdk.showBanner()");
         if (typeof gameConfig.AdsWaitForInput === "boolean" && gameConfig.AdsWaitForInput) queueAds();
-        else if (typeof sdk !== "undefined" && sdk.showBanner !== "undefined") sdk.showBanner();
+       // else if (typeof sdk !== "undefined" && sdk.showBanner !== "undefined") sdk.showBanner(); */
     }
 }
 
